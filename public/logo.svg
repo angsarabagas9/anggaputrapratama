@@ -1,0 +1,30 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="55" fill="#D97706" stroke="#92400E" stroke-width="2"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="60" cy="60" r="45" fill="#F59E0B" opacity="0.3"/>
+  
+  <!-- Needle and Thread Design -->
+  <g transform="translate(60, 60)">
+    <!-- Needle -->
+    <rect x="-2" y="-25" width="4" height="35" fill="#1F2937" rx="1"/>
+    <polygon points="-2,10 0,15 2,10" fill="#1F2937"/>
+    
+    <!-- Thread -->
+    <path d="M 0,-25 Q -15,-20 -20,-5 Q -22,5 -15,15 Q -10,20 0,25 Q 10,20 15,15 Q 22,5 20,-5 Q 15,-20 0,-25" 
+          stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8"/>
+    
+    <!-- Scissors -->
+    <g transform="rotate(45) translate(-15, -15)">
+      <circle cx="0" cy="0" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF"/>
+      <rect x="-1" y="0" width="2" height="20" fill="#FFFFFF"/>
+      <circle cx="0" cy="20" r="8" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+      <circle cx="0" cy="20" r="3" fill="#FFFFFF"/>
+    </g>
+  </g>
+  
+  <!-- Company Initials -->
+  <text x="60" y="95" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">APP</text>
+</svg>
